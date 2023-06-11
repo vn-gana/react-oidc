@@ -96,7 +96,7 @@ module.exports = {
     //   quotes: ['error', 'single'],
       semi: ['error', 'always'],
       'space-before-function-paren': 'off',
-  
+
       'import/no-named-as-default': 'off',
       'import/no-named-as-default-member': 'off',
       'import/default': 'off',
@@ -113,7 +113,7 @@ module.exports = {
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'off',
     },
-  
+
     overrides: [
       {
         files: ['*.js', '*.jsx'],
@@ -134,7 +134,7 @@ module.exports = {
         },
       },
     ],
-  
+
     settings: {
       react: {
         version: 'detect',
